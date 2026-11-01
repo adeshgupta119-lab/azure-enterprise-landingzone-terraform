@@ -9,3 +9,4 @@ variable "root_management_group_id" {
   type        = string
   default     = "ent-root"
 }
+

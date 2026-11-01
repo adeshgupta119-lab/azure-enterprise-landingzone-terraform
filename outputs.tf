@@ -7,3 +7,4 @@ output "firewall_ip" {
   description = "Azure Firewall private IP address"
   value       = module.hub_network.firewall_private_ip
 }
+

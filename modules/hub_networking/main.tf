@@ -68,3 +68,4 @@ output "firewall_private_ip" {
 output "spoke_route_table_id" {
   value = azurerm_route_table.spoke_udr.id
 }
+

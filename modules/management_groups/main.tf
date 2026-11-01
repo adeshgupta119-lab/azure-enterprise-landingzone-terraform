@@ -14,3 +14,4 @@ resource "azurerm_management_group" "landing_zones" {
   name                       = "${var.root_management_group_id}-landingzones-mg"
   parent_management_group_id = azurerm_management_group.root.id
 }
+

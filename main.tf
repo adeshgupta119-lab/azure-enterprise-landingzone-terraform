@@ -40,3 +40,4 @@ module "spoke_network_prod" {
   hub_route_table_id      = module.hub_network.spoke_route_table_id
   tags                    = var.common_tags
 }
+

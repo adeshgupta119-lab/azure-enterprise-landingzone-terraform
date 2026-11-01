@@ -31,3 +31,4 @@ variable "common_tags" {
     Framework   = "Azure-CAF"
   }
 }
+
